@@ -4,8 +4,15 @@ using namespace std;
 class calculator {
 
 public:
-    calculator(/* args */);
-    ~calculator();
+    int add(int a,int b){
+        cout<< "Sum : "<<a+b;
+    }
+
+    int sub(int a,int b){
+        cout<< "Sub : "<<a-b;
+    }
+    
+    
 };
 
 int main(){
