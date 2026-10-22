@@ -26,10 +26,13 @@ public:
         cout<<"here i learn rebase in git\n";
     }
 
+    void mainFunction(){
+        cout<<"this is the main function";
+    }
 };
 
 class Animal{
-    public:
+public:
     void dog(){
         cout<<"Dog is a faithfull animal";
     }
@@ -44,7 +47,7 @@ int main(){
     cal.div(10,5);
     cal.mergeExample("in Git");
     cal.rebaseExample();
+    cal.mainFunction();
     ani.dog();
-
     return 0;
 }
