@@ -27,7 +27,15 @@ public:
     }
 };
 
+class Animal{
+    public:
+    void Dog(){
+        cout<<"Dog is a faithful Animal ";
+    }
+}
+
 int main(){
+    
     calculator cal;
     cal.add(10,5);
     cal.sub(10,5);
