@@ -32,9 +32,18 @@ public:
 };
 
 class Animal{
+<<<<<<< HEAD
 public:
+<<<<<<< HEAD
     void Dog(){
         cout<<"Dog is a faithful Animal ";
+=======
+=======
+    public:
+>>>>>>> 47a928c (update animal class)
+    void dog(){
+        cout<<"Dog is a faithfull animal";
+>>>>>>> 0f6d7a3 (update animal class)
     }
 };
 
@@ -47,7 +56,16 @@ int main(){
     cal.div(10,5);
     cal.mergeExample("in Git");
     cal.rebaseExample();
+<<<<<<< HEAD
     cal.mainFunction();
+<<<<<<< HEAD
     ani.Dog();
+=======
+    ani.dog();
+=======
+    ani.dog();
+
+>>>>>>> 47a928c (update animal class)
+>>>>>>> 0f6d7a3 (update animal class)
     return 0;
 }
