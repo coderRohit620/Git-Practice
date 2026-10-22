@@ -22,7 +22,6 @@ public:
         cout<<"Here i Learn how to merge "<<a<<'\n';
     }
 
-
     void rebaseExample(){
         cout<<"here i learn rebase in git\n";
     }
