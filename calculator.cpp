@@ -32,7 +32,7 @@ public:
 };
 
 class Animal{
-    public:
+public:
     void Dog(){
         cout<<"Dog is a faithful Animal ";
     }
@@ -47,5 +47,7 @@ int main(){
     cal.div(10,5);
     cal.mergeExample("in Git");
     cal.rebaseExample();
+    cal.mainFunction();
+    ani.Dog();
     return 0;
 }
