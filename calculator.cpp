@@ -25,24 +25,26 @@ public:
     void rebaseExample(){
         cout<<"here i learn rebase in git\n";
     }
+
 };
 
 class Animal{
     public:
-    void Dog(){
-        cout<<"Dog is a faithful Animal ";
+    void dog(){
+        cout<<"Dog is a faithfull animal";
     }
-}
+};
 
 int main(){
-    
     calculator cal;
+    Animal ani;
     cal.add(10,5);
     cal.sub(10,5);
     cal.mul(10,5);
     cal.div(10,5);
     cal.mergeExample("in Git");
     cal.rebaseExample();
+    ani.dog();
 
     return 0;
 }
