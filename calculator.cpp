@@ -4,34 +4,38 @@ using namespace std;
 class calculator {
 
 public:
-    int add(int a,int b){
-        cout<< "Sum : "<<a+b;
+    void add(int a,int b){
+        cout<< "Sum : "<<a+b<<'\n';
     }
 
-    int sub(int a,int b){
-        cout<< "Sub : "<<a-b;
+    void sub(int a,int b){
+        cout<< "Sub : "<<a-b<<'\n';
     }
-    int mul(int a,int b){
-        cout<< "Mul : "<<a*b;
+    void mul(int a,int b){
+        cout<< "Mul : "<<a*b<<'\n';
     }
-    int div(int a,int b){
-        cout<< "Div : "<<a/b;
+    void div(int a,int b){
+        cout<< "Div : "<<a/b<<'\n';
     }
 
     void mergeExample(string a){
-        cout<<"Here i Learn how to merge ";
+        cout<<"Here i Learn how to merge "<<a<<'\n';
     }
 
 
     void rebaseExample(){
-        cout<<"here i learn rebase in git";
+        cout<<"here i learn rebase in git\n";
     }
 };
 
-
-
 int main(){
     calculator cal;
-    
+    cal.add(10,5);
+    cal.sub(10,5);
+    cal.mul(10,5);
+    cal.div(10,5);
+    cal.mergeExample("in Git");
+    cal.rebaseExample();
+
     return 0;
 }
