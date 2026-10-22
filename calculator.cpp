@@ -11,7 +11,10 @@ public:
     int sub(int a,int b){
         cout<< "Sub : "<<a-b;
     }
-    
+    void mergeExample(string a){
+        cout<<"Here i Learn how to merge ";
+    }
+
     
 };
 
