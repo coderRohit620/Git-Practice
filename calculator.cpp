@@ -32,10 +32,10 @@ public:
 };
 
 class Animal{
-    public:
-    void dog(){
-        cout<<"Dog is a faithfull animal";
-    }
+public:
+   void dog(){
+       cout<<"Dog is a faithfull animal";
+   }
 };
 
 int main(){
