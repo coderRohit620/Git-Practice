@@ -16,6 +16,9 @@ public:
     }
 
     
+    void rebaseExample(){
+        cout<<"here i learn rebase in git";
+    }
 };
 
 int main(){
