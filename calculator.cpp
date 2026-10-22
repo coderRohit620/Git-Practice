@@ -23,6 +23,7 @@ public:
 
 
 int main(){
-
+    calculator cal;
+    
     return 0;
 }
