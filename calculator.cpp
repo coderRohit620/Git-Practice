@@ -22,6 +22,10 @@ public:
         cout<<"Here i Learn how to merge ";
     }
 
+
+    void rebaseExample(){
+        cout<<"here i learn rebase in git";
+    }
 };
 
 
