@@ -25,6 +25,10 @@ public:
     void rebaseExample(){
         cout<<"here i learn rebase in git\n";
     }
+
+    void mainFunction(){
+        cout<<"this is the main function";
+    }
 };
 
 int main(){
@@ -35,6 +39,5 @@ int main(){
     cal.div(10,5);
     cal.mergeExample("in Git");
     cal.rebaseExample();
-
     return 0;
 }
